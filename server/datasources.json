@@ -2,5 +2,13 @@
   "db": {
     "name": "db",
     "connector": "memory"
+  },
+  "MyDataSource": {
+    "url": "http://localhost:8080",
+    "database": "a_testing",
+    "username": "admin",
+    "password": "pass",
+    "name": "MyDataSource",
+    "connector": "cloudant"
   }
 }
